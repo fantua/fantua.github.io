@@ -18,6 +18,8 @@ $(function () {
         var left = paper.line(100, 100, 100, 300).attr({class: 'line-v'});
         var right = paper.line(400, 100, 400, 300).attr({class: 'line-v'});
 
+        var test = paper.path('M50, 50 L400, 50 L400, 70, L50, 70, L50, 50 Z').attr({class: 'path'});
+
         top.mousedown(function () {
             select(top);
 
