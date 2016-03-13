@@ -10,7 +10,7 @@ $(function () {
             selected = null;
         };
 
-        var paper = Snap(800, 600);
+        var paper = Snap(1800, 1000);
 
         var top = paper.line(100, 100, 400, 100).attr({class: 'line-h'});
         var bottom = paper.line(100, 300, 400, 300).attr({class: 'line-h'});
